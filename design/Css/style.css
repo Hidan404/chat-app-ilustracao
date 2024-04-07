@@ -55,16 +55,15 @@ i {
     border: none;
 }
 #box-2 {
-    background-color: #e8e0e0;
+    background-color: hsl(270, 20%, 96%);
     margin-left: 10px;
     margin-right: 10px;
-    height: auto;
+    height: 500px;
+    
 }
 #msg-text {
-    
-    padding-top: 25px;
-    background-color: #1a1717;
-    width: 150px;
-    height: 80px;
-    color: aliceblue;
+    background-color: #b40000;
+    width: 120px;
+    color: rgb(7, 109, 199);
+    margin-top: 15px;
 }
