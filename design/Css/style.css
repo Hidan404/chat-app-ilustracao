@@ -69,14 +69,15 @@
     border: 12px solid white;
     box-shadow: 3px 15px 90px 0px #00000017;
   }
-  display: flex;
-  align-items: center;
-  background-image: var(--gradient-blue-to-violet);
-  position: relative;
-  padding: 36px 10px 14px;
-  border-radius: 1pc;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.062);
-}
+  .main-screen .screen .header {
+    display: flex;
+    align-items: center;
+    background-image: var(--gradient-blue-to-violet);
+    position: relative;
+    padding: 36px 10px 14px;
+    border-radius: 1pc;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.062);
+  }
 .main-screen .arrow-left {
   color: var(--White);
   cursor: pointer;
