@@ -25,7 +25,7 @@
   }
 
   body {
-    font-size: 16px;
+    font-size: 12px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -60,6 +60,7 @@
   }
   .main-screen {
     margin-top: 20px;
+    height: auto;
   }
   .main-screen .screen {
     position: relative;
@@ -89,6 +90,17 @@
     border-radius: 1pc;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.062);
   }
+
+ .bi-chevron-compact-left {
+  font-size: 18px;
+  font-weight: bolder;
+  color: aliceblue;
+}
+.bolinhas {
+   margin-left: 57px;
+   color: aliceblue;
+   font-size: 18;
+}
 .main-screen .arrow-left {
   color: var(--White);
   cursor: pointer;
@@ -98,6 +110,9 @@
   align-items: center;
   width: 100%;
   margin-left: 5px;
+}
+.main-screen .text-user {
+  width: 100px;
 }
 .main-screen .screen .img-user img {
   width: 40px;
@@ -148,18 +163,58 @@
   padding: 5px;
   color: black;
   margin: 10px;
-  margin-left: 55px;
+  margin-left: 60px;
   text-align: justify;
 }
 .messages .textMsg2 {
   display: flex;
-  max-width: 50%;
+  max-width: 35%;
   justify-content: flex-end;
   border-radius: 14px 14px 3px 13px;
   background-color: var(--White);
   padding: 5px;
   color: black;
   margin: 10px;
-  margin-left: 105px;
+  margin-left: 150px;
   text-align: justify;
+}
+.messages .textMsg3 {
+  margin-top: 19px;
+  
+}
+.messages .escolha {
+  display: flex;
+  width: 150px;
+  padding: 12px;
+  color: aliceblue;
+}
+#choice {
+  background-image: linear-gradient(
+  -150deg,
+  var(--Light-Magenta) 10%,
+  var(--Light-Violet)
+);;
+}
+.messages .price {
+  font-weight: bolder;
+}
+.input-message  {
+  
+  display: flex;
+  margin-left: 35px;
+  padding: 3px;
+
+}
+.input-message input {
+  max-width: 90%;
+  padding: 8px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 5px;
+}
+.input-message i {
+  position: relative;
+  left: -32px;
+  top: -2px;
+  font-size: 30px;
 }
