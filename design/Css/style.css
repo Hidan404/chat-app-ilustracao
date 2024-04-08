@@ -29,7 +29,7 @@
 
   body {
     font-size: 12px;
-    height: 100vh;
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,11 +51,14 @@
       var(--Light-Violet)
     );
   }
-  .circle.left {
+.circle.left {
     top: 150px;
     right: -140px;
     background: var(--Light-Grayish-Violet);
   }
+
+
+
   main {
     display: flex;
     align-items: center;
@@ -214,12 +217,14 @@
   border-radius: 25px;
   border: none;
   margin-bottom: 5px;
+  outline: none;
 }
 .input-message i {
   position: relative;
   left: -32px;
   top: -2px;
   font-size: 30px;
+  color: hsl(271, 36%, 24%);
 }
 
 /* text side */
@@ -235,4 +240,11 @@
   margin-left: 100px;
   margin-top: 15px;
   color: hsl(270, 7%, 64%);
+}
+
+@media (max-width: 380px) {
+  .main-screen {
+    display: inline-block;
+    width: 100%;
+  }
 }
